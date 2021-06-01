@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body{
+  background: rgb(94,129,172);
+  background: linear-gradient(90deg, rgba(94,129,172,1) 7%, rgba(48,85,130,1) 51%, rgba(23,16,68,1) 96%);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.w-75{
+  margin-top: 100px;
+  height: auto;
+  border-radius: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.w-75 h3{
+  margin-left: auto;
+  margin-top: 30px;
+  display: inline-block;
+  margin-left: 320px;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-group{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.form-group button, input{
+  width: 60%;
+  margin-top: 30px;
+ 
+}
+.form-group button{
+  margin-bottom: 30px;
+}
+.alert{
+  width: 35%;
+  height: 10%;
+  display: block;
+  margin-left: 30%;
 }
 
-.App-link {
-  color: #61dafb;
+.controlGastos{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 20px;
+  background-color: white;
+}
+.controlGastos div {
+  width: 50%;
+  height: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gastos form input{
+  width: 70%;
+  margin-left: 0px;
+}
+
+.liGastos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
